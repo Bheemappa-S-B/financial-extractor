@@ -67,11 +67,11 @@ app.post("/upload", upload.single("file"), async (req, res) => {
 if (!fs.existsSync("outputs")) {
   fs.mkdirSync("outputs");
 }
-
+const baseUrl = `${req.protocol}://${req.get("host")}`;
 await generateExcel(extracted.data ?? extracted, excelPath);
 res.json({
   data: extracted,
-  download: `http://localhost:${PORT}/${excelPath}`
+  download: `${baseUrl}/${excelPath}`
 });
 
   } catch (error) {

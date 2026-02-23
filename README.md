@@ -112,7 +112,7 @@ Excel Generation (ExcelJS)
 
 You can test the system using this sample financial statement:
 
-[Download Sample Financial Statement](sample-files/sample-financial-statement.pdf)
+[Download Sample Financial Statement](https://github.com/Bheemappa-S-B/financial-extractor/blob/main/sample-files/sample_financial_statement.pdf)
 
 This sample contains:
 - Revenue

@@ -108,6 +108,19 @@ Excel Generation (ExcelJS)
 ```
 
 ------------------------------------------------------------------------
+## 📄 Sample Test File
+
+You can test the system using this sample financial statement:
+
+[Download Sample Financial Statement](sample-files/sample-financial-statement.pdf)
+
+This sample contains:
+- Revenue
+- Operating Expenses
+- Net Income
+- Currency
+- Year
+
 ## ⚠ Deployment Note
 
 Render free tier may sleep after inactivity. 

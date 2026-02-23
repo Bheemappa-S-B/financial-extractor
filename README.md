@@ -4,6 +4,11 @@ AI-Powered Research Tool for Structured Financial Data Extraction
 
 ------------------------------------------------------------------------
 
+## 🌐 Live Demo
+
+Frontend: https://financial-extractor-beta.vercel.app/ 
+Backend: https://financial-extractor-b8bo.onrender.com/
+
 ## 🚀 Overview
 
 The Financial Statement Extractor is a minimal research portal built to
@@ -69,6 +74,13 @@ Excel Generation (ExcelJS)
 -   ExcelJS (Excel generation)
 
 ------------------------------------------------------------------------
+## 📷 Screenshots
+
+### Upload Interface
+![Upload Screen](client/public/screenshots/upload.png)
+
+### Extracted Financial Data
+![Output Screen](client/public/screenshots/output.png)
 
 ## 📂 Features
 
@@ -96,6 +108,10 @@ Excel Generation (ExcelJS)
 ```
 
 ------------------------------------------------------------------------
+## ⚠ Deployment Note
+
+Render free tier may sleep after inactivity. 
+First request may take 20–40 seconds to wake the backend.
 
 ## ⚠ Limitations
 
